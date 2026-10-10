@@ -34,6 +34,7 @@
     "typecheck": "tsc --noEmit",
     "test": "tsx --test src/model.test.ts",
     "build": "expo export --platform web",
+    "build:web": "EXPO_NO_TELEMETRY=1 EXPO_OFFLINE=1 expo export --platform web",
     "test:e2e": "playwright test",
     "ios:build": "expo run:ios"
   }
