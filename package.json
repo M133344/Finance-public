@@ -26,6 +26,7 @@
     "typescript": "~6.0.3"
   },
   "scripts": {
+    "dev": "EXPO_NO_TELEMETRY=1 EXPO_OFFLINE=1 expo start --web --port 8081",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
