@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Oqim",
+    "slug": "oqim-finance",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.oqim.finance",
+      "infoPlist": {
+        "CFBundleLocalizations": ["en", "ru", "uz", "ar"],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "plugins": [
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "Oqim uses your microphone to dictate a transaction for your review.",
+          "speechRecognitionPermission": "Oqim turns speech into a transaction draft. Nothing is saved until you confirm."
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro",
+      "name": "Oqim \u2014 personal finance",
+      "shortName": "Oqim",
+      "favicon": "./assets/favicon.png"
+    },
+    "icon": "./assets/icon.png"
+  }
+}
